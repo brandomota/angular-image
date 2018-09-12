@@ -54,4 +54,6 @@ Add the `ngImage` dependency.
 angular.module('myApp', [ 'ngImage' ])
 ```
 
+**Original package repository is:** https://github.com/aj0strow/angular-image (thanks to original developer :) )
+
 **MIT License**. 
