@@ -56,4 +56,14 @@ angular.module('myApp', [ 'ngImage' ])
 
 **Original package repository is:** https://github.com/aj0strow/angular-image (thanks to original developer :) )
 
+RELEASE NOTES:
+
+1.0.3:
+ - Add to original code the directive ´ng-src-success´:
+
+ ```html
+ <img ng-src="{{ user.image }}" ng-src-success="sendOkMessage()">
+ ```
+
+
 **MIT License**. 

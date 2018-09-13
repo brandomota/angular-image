@@ -31,11 +31,11 @@ angular.module('ngImage', [])
     }
   }
 ])
-.directive('ngSrcSucess', ['$parse', function ($parse) {
+.directive('ngSrcSuccess', ['$parse', function ($parse) {
   return {
     restrict: 'A',
     link: function (scope, elem, attrs) {
-      var fn = $parse(attrs.ngSrcSucess);
+      var fn = $parse(attrs.ngSrcSuccess);
       elem.on('load', function (event) {
         scope.$apply(function() {
           fn(scope, { $event: event });
